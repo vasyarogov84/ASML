@@ -9,7 +9,7 @@ export default () => {
       start: 1,
       duration: 12,
       engineers: 2,
-      eLabel: {x: 1 + 0.25, y: 1, label: `Engineers: 2`,style: { fontSize: 10 }}
+      eLabel: {x: 1.25, y: 1, label: `E-2 (A)`,style: { fontSize: 14 ,fontWeight:900 }}
     },
     {
       id: uuid(),
@@ -18,7 +18,7 @@ export default () => {
       start: 2,
       duration: 24,
       engineers: 3,
-      eLabel: {x: 2 + 0.25, y: 2, label: `Engineers: 3`,style: { fontSize: 10 }}
+      eLabel: {x: 2.5, y: 2, label: `E-3 (B)`,style: {  fontSize: 14 ,fontWeight:900 }}
     },
     {
       id: uuid(),
@@ -27,7 +27,7 @@ export default () => {
       start: 3,
       duration: 36,
       engineers: 2,
-      eLabel: {x: 3 + 0.25, y: 3, label: `Engineers: 2`,style: { fontSize: 10 }}
+      eLabel: {x: 3.75, y: 3, label: `E-2 (C)`,style: {  fontSize: 14 ,fontWeight:900 }}
     },
     {
       id: uuid(),
@@ -36,7 +36,7 @@ export default () => {
       start: 4,
       duration: 48,
       engineers: 5,
-      eLabel: {x: 4 + 0.25, y: 1, label: `Engineers: 5`,style: { fontSize: 10 }}
+      eLabel: {x: 5, y: 1, label: `E-5 (D)`,style: {  fontSize: 14 ,fontWeight:900 }}
     },
     {
       id: uuid(),
@@ -45,7 +45,7 @@ export default () => {
       start: 5,
       duration: 12,
       engineers: 4,
-      eLabel: {x: 5 + 0.25, y: 2, label: `Engineers: 4`,style: { fontSize: 10 }}
+      eLabel: {x: 5.25, y: 2, label: `E-4 (E)`,style: {  fontSize: 14 ,fontWeight:900 }}
     }
   ];
 };

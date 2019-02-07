@@ -85,7 +85,7 @@ class App extends Component {
                 {this.renderXY()}
                 {this.renderServices()}
 
-                <LabelSeries data={this.state.labelData} />
+                <LabelSeries  data={this.state.labelData} />
 
                 <XAxis title="DAYS" />
                 <YAxis title="Machines" />
@@ -115,6 +115,7 @@ class App extends Component {
 }
 
 function mapStateToProps(state) {
+  console.log(state);
   return {
     table: state.table
   };
